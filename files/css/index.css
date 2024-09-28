@@ -26,6 +26,30 @@
     font-size: 1.25em;
 }
 
+.hero {
+    position: relative;
+}
+.hero img {
+    opacity: 0.5;
+    position: relative;
+    z-index: -1;
+}
+
+.hero button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 200px;
+    font-size: 2em; /* Adjusted from 10em to 2em */
+    color: white;
+    background-color: #a51417;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
 #visit-our-school a {
     color: #a51417;
     border: #a51417;
