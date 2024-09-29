@@ -1,5 +1,14 @@
 a {
     color: white;
+    line-height: 2;
+}
+.footer {
+    h2, p, a {
+        max-width: fit-content;
+    }
+    div.textwidget {
+        max-width: 265px;
+    }
 }
 
 .footer {
@@ -17,21 +26,28 @@ a {
     clear: both;
     margin-bottom: 1em;
     text-align: left;
-    display: grid;
-    column-gap: 25px;
-    row-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: flex;
+    column-gap: 45px;
+    row-gap: 30px;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     justify-content: space-between;
-    grid-auto-flow: row;
+    flex-wrap: wrap;
+    max-width: 899px;
+    padding-bottom: 15px;
     > aside.widget {
+        max-width: 100%;
+        width: fit-content;
         > h2.footer-widget-title {
             margin-bottom: 10px;
             font-size: 1.2em;
         }
+        p:last-of-type {
+            padding-bottom: 10px;
+        }
     }
-    & aside:last-child {
+    /* & aside:last-child {
         margin-bottom: 25px;
-    }
+    } */
     /* > .site-contact{} */
 
 }
