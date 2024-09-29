@@ -26,6 +26,7 @@
     font-size: 1.25em;
 }
 
+/* we added */
 .hero {
     position: relative;
 }
@@ -34,10 +35,9 @@
     position: relative;
     z-index: -1;
 }
-
 .hero button {
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -46,8 +46,16 @@
     color: white;
     background-color: #a51417;
     border-radius: 25px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+main {
+    > h2.about-header{
+        text-align: center;
+    }
+    > p.about-text {
+        text-align: center;
+    }
 }
 
 #visit-our-school a {
