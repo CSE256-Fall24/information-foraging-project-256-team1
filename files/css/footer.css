@@ -30,9 +30,9 @@ a {
     column-gap: 45px;
     row-gap: 30px;
     /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
-    max-width: 899px;
+    /* max-width: 899px; */
     padding-bottom: 15px;
     > aside.widget {
         max-width: 100%;

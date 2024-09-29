@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+body div.page-content-container {
+    display: flex !important;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
 body main {
     color: #555;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -96,4 +102,54 @@ main h4 a {
     border-radius: 6px;
     background-color: #a51417;
     text-align: center;
+}
+
+/* HOURS OF OPERATIONS TABLE */
+main article div {
+    table#hours-table {
+        width: 100%;
+        border-collapse: collapse;
+        caption.table-note {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        thead.table-heading {
+            background-color: #4b4b4b;
+            color: white;
+            tr.table-row {
+                /* border-bottom: 2px solid #a51417; */
+            }
+        }
+        th.table-cell, td.table-cell{
+            padding: 10px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        
+        tbody tr.table-row:nth-child(odd) {
+            background-color: white;
+            color: black;
+        }
+        tbody tr.table-row:nth-child(even) {
+            background-color: #cccccc;
+            color: black;
+        }
+    }
+}
+
+/* my paragraphs */
+main article div {
+    div.my-about-div {
+        padding: 5px 0px;
+        margin-bottom: 35px;
+        h2.my-about-subheading {}
+        p.my-about-text {
+            line-height: .75;
+            a { line-height: .75;}
+        }
+        h3.my-about-subheading {
+            font-size: 24.5px;
+            line-height: 1.75;
+        }
+    }
 }

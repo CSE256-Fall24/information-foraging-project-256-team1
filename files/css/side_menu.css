@@ -1,7 +1,7 @@
 main {
     margin: 40px 60px 120px 60px;
     width: 66%;
-    float: left;
+    /* float: left; */
     display: block;
 }
 
@@ -9,13 +9,15 @@ main {
     padding-top: 2em;
     padding-right: 3em;
     width: 23.5%;
-    float: right;
+    /* float: right; */
     clear: none;
+    margin-bottom: 25px;
+    max-height: max-content;
 }
 
 .stick {
     position: sticky;
-    top: 15px;
+    top: 95px;
 }
 
 ul.subnav>.current_page_item>a {
