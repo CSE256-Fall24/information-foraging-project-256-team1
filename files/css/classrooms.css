@@ -24,3 +24,7 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+.classroom strong {
+    color: black;
+}
