@@ -28,3 +28,8 @@ main li {
 .classroom strong {
     color: black;
 }
+
+#page-content a { 
+    color: black;
+    font-weight: bold;
+}
